@@ -1,0 +1,275 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.in_flex {
+    background: orangered;
+    width: 500px;
+    outline: 2px solid black;
+}
+
+.flex2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex_cont {
+    display: flex;
+    justify-content: center;
+}
+
+.flexx {
+    outline: 2px solid black;
+    height: 83px;
+    width: 1000px;
+    background: gold;
+}
+
+.flexx2 {
+    outline: 2px solid black;
+    height: 83px;
+    width: 1000px;
+    background: violet;
+}
+
+.flexx3 {
+    outline: 2px solid black;
+    height: 83px;
+    width: 1000px;
+    background: lavender;
+}
+
+.flexx4 {
+    outline: 2px solid black;
+    background: green;
+    width: 500px;
+    height: 124px;
+}
+
+.flexx5 {
+    outline: 2px solid black;
+    background: pink;
+    width: 500px;
+    height: 125px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+}
+
+.in_f_c {
+    outline: 2px solid black;
+    background: green;
+    width: 500px;
+    height: 248px;
+}
+
+.flex_container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.in_f_c1 {
+    outline: 2px solid black;
+    background: blueviolet;
+    width: 1000px;
+    height: 124px;
+
+}
+
+.in_f_c2 {
+    outline: 2px solid black;
+    background: brown;
+    width: 500px;
+    height: 123px;
+}
+
+.in_f_c3 {
+    outline: 2px solid black;
+    width: 500px;
+    height: 123px;
+}
+
+.container {
+    display: flex;
+}
+
+.flex_container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.in_f_c4 {
+    width: 1000px;
+    background: blue;
+    height: 123px;
+    outline: 2px solid black;
+}
+
+.flex_container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.in_f_c5 {
+    width: 500px;
+    background: greenyellow;
+    height: 248px;
+    outline: 2px solid black;
+}
+
+.flex_row {
+    display: flex;
+}
+
+.flex_r {
+    width: 500px;
+    background: yellow;
+    outline: 2px solid black;
+    height: 63px;
+}
+
+.flex_column {
+    display: flex;
+}
+
+.flex_c {
+    width: 500px;
+    background: gray;
+    outline: 2px solid black;
+    height: 125px;
+}
